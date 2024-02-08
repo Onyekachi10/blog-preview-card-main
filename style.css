@@ -1,0 +1,129 @@
+
+
+.attribution { font-size: 11px;
+     text-align: center; 
+    }
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Figtree';
+    background-color: hsl(47, 88%, 63%);
+}
+
+div.board {
+    border: 2px solid;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    width: 25%;
+    height: 75%;
+   background-color: hsl(0, 0%, 100%);
+   box-shadow: 10px 10px black;
+    
+}
+
+img#photo {
+    width: 300px;
+    border: 1px ;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+p.para {
+    text-align: left;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 2px solid;
+    border-radius:10px;
+    width: fit-content;
+    margin-left: 10px;
+    font-weight: bolder;
+    background-color: hsl(47, 88%, 63%);
+    cursor: pointer;
+
+}
+
+
+
+.para_one {
+   margin-left: 10px; 
+   font-size: 13px;
+   margin-bottom: 10px;
+}
+
+h1 {
+    margin-left: 10px;  
+}
+
+h1:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.para__2{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+img.photo {
+    position: relative;
+    bottom: 20.5px;
+    left:10px;
+}
+
+h6 {
+    margin-left: 45px;
+    margin-top: 30px;
+}
+
+@media screen  and (max-width:1115px) and (min-width:800px){
+    img#photo {
+        width: 200px;
+    }
+}
+
+@media screen  and (max-width:799px) and (min-width:600px){
+    img#photo {
+        width:120px;
+    }
+
+    div.board {
+        height: 500px;
+    }
+}
+
+@media screen  and (max-width:599px)  {
+   img#photo {
+    width: 90%;
+   } 
+   div.board {
+    width:55%;
+    height: 65%;
+   }
+}
+
+@media screen and (max-width:420px) {
+    img#photo {
+        width:  90%;  
+    }
+    div.board {
+        width:55%;
+        height: 85%;
+       }
+
+}
